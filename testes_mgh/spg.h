@@ -39,3 +39,7 @@ void sproj(int n, double *x, int *inform);
 void proj(int n, double *x, int *flag);
 
 void reperr(int inform);
+
+void inidim(int *n);
+
+void inip(int n, double *x, double *l, double *u);

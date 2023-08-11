@@ -27,37 +27,23 @@
 /* Global variables that describe the convex set (a box in this
    case). They will be used by the projection subroutine. */
 
-double *l, *u;
-
 /* Main program */
 
 int main()
 {
 
    int fcnt, iprint, i, inform, iter, maxfc, maxit, n, spginfo;
-   double epsopt, f, gpsupn, *x;
+   double epsopt, f, gpsupn, *x, *l, *u;
    FILE *fp;
 
-   /* Set problem data */
-   n = 2;
+   inidim(&n);
 
    /* Get memory */
    x = (double *)malloc(n * sizeof(double));
    l = (double *)malloc(n * sizeof(double));
    u = (double *)malloc(n * sizeof(double));
 
-   /* Define bounds */
-   for (i = 0; i < n; i++)
-   {
-      l[i] = -1.0e+30;
-      u[i] = 1.0e+30;
-   }
-
-   /* Define initial Guess */
-   // for ( i=0; i<n; i++ )
-   //    x[i] = 60.0;
-   x[0] = -1.2;
-   x[1] = 1.0;
+   inip(n, x, l, u);
 
    /* Set solver parameters */
 
@@ -72,7 +58,12 @@ int main()
    /* Save solution */
    fp = fopen("solution.txt", "w");
    for (i = 0; i < n; i++)
+   {
       fprintf(fp, "x[%d] = %e\n", i, x[i]);
+      printf(" Pontos finais               : x[%d] = %e\n", i, x[i]);
+   }
+   // printar soluções
+
    fclose(fp);
 
    /* Save statistics */

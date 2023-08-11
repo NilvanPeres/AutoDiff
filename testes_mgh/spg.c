@@ -22,10 +22,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-
-#include "spg.h"
 #include "adolc/adolc.h"
 #include "adolc/adouble.h"
+
+#include "spg.h"
 
 #define min(a, b) ((a) < (b) ? (a) : (b))
 #define max(a, b) ((a) > (b) ? (a) : (b))
@@ -462,55 +462,18 @@ void sevalf(int n, double *x, double *f, int *inform)
 /***********************************************************************
  **********************************************************************/
 
-// void sevalg(int n, double *x, double *g, int *inform)
-// {
-
-//    int flag;
-
-//    evalg(n, x, g, &flag);
-
-//    if (flag != 0)
-//    {
-//       *inform = -91;
-//       reperr(*inform);
-//    }
-// }
-
 void sevalg(int n, double *x, double *g, int *inform)
 {
+
    int flag;
-   double *xad = new double[n];
-   double *yad = new double[1];
 
-   evalf(n, x, g, &flag);
+   evalg(n, x, g, &flag);
 
-   int m = 1;
-
-   trace_on(1);
-
-   for (int i = 0; i < n; i++)
+   if (flag != 0)
    {
-      xad[i] = x[i];
+      *inform = -91;
+      reperr(*inform);
    }
-   adouble ax;
-   ax <<= xad[0];
-
-   adouble af = pow(ax, 3) + 2.0 * pow(ax, 2) + sin(2.0 * ax);
-   // adouble af;
-
-   af >>= yad[0];
-   trace_off();
-   double grad[n]; // Vetor de derivadas
-
-   gradient(1, 1, xad, grad); // Calcular derivadas
-
-   for (int i = 0; i < n; i++)
-   {
-      g[i] = grad[i];
-   }
-
-   delete[] xad;
-   delete[] yad;
 }
 
 /***********************************************************************

@@ -18,119 +18,120 @@ C     www.ime.usp.br/~egbirgin/tango/
 C     *****************************************************************
 C     *****************************************************************
 
-      subroutine inip(n,x)
+      subroutine inip(n, x)
 
-C     SCALAR ARGUMENTS
-      integer n
+        ! SCALAR ARGUMENTS
+        integer, intent(in) :: n
 
-C     ARRAY ARGUMENTS
-      double precision x(n)
+        ! ARRAY ARGUMENTS
+        double precision, intent(inout) :: x(n)
 
-C     PARAMETERS
-      integer nmax
-      parameter ( nmax = 100000 )
+        ! PARAMETERS
+        integer, parameter :: nmax = 100000
 
-C     COMMON ARRAYS
-      double precision l(nmax),u(nmax)
+        ! COMMON ARRAYS
+        double precision l(nmax), u(nmax)
 
-C     LOCAL SCALARS
-      integer i
+        ! LOCAL SCALARS
+        integer :: i
 
-C     COMMON BLOCKS
-      common /bounds/l,u
+        ! COMMON BLOCKS
+        common /bounds/ l, u
 
-C     Number of variables
-      n = 10
+        ! Number of variables
+        n = 10
 
-C     Initial point
-      do i = 1,n
-          x(i) = 60.0d0
-      end do
+        ! Initial point
+        do i = 1, n
+            x(i) = 60.0d0
+        end do
 
-C     Bound constraints (or any other constraints that define a 
-C     convex set)
-      do i = 1,n
-          l(i) = - 100.0d0
-          u(i) =    50.0d0
-      end do
+        ! Bound constraints (or any other constraints that define a
+        ! convex set)
+        do i = 1, n
+            l(i) = -100.0d0
+            u(i) = 50.0d0
+        end do
 
-      end
+      end subroutine inip
 
-C     *****************************************************************
-C     *****************************************************************
+      subroutine evalf(n, x, f, flag)
 
-      subroutine evalf(n,x,f,flag)
+        ! SCALAR ARGUMENTS
+        integer, intent(in) :: n
+        double precision, intent(in) :: x(n)
+        double precision, intent(out) :: f
+        integer, intent(out) :: flag
 
-C     SCALAR ARGUMENTS
-      double precision f
-      integer n,flag
+        ! LOCAL SCALARS
+        integer :: i
 
-C     ARRAY ARGUMENTS
-      double precision x(n)
+        flag = 0
 
-C     LOCAL SCALARS
-      integer i
+        f = 0.0d0
+        do i = 1, n
+            f = f + x(i) ** 2
+        end do
 
-      flag = 0
+      end subroutine evalf
 
-      f = 0.0d0
-      do i = 1,n
-          f = f + x(i) ** 2
-      end do
+      subroutine evalg(n, x, g, flag)
 
-      end
+        ! SCALAR ARGUMENTS
+        integer, intent(in) :: n
+        double precision, intent(in) :: x(n)
+        double precision, intent(out) :: g(n)
+        integer, intent(out) :: flag
 
-C     *****************************************************************
-C     *****************************************************************
+        ! LOCAL SCALARS
+        integer :: i
 
-      subroutine evalg(n,x,g,flag)
+        flag = 0
 
-C     SCALAR ARGUMENTS
-      integer n,flag
+        do i = 1, n
+            g(i) = 2.0d0 * x(i)
+        end do
 
-C     ARRAY ARGUMENTS
-      double precision g(n),x(n)
+      end subroutine evalg
 
-C     LOCAL SCALARS
-      integer i
+      subroutine proj(n, x, flag)
 
-      flag = 0
+        ! SCALAR ARGUMENTS
+        integer, intent(in) :: n
+        double precision, intent(inout) :: x(n)
+        integer, intent(out) :: flag
 
-      do i = 1,n
-          g(i) = 2.0d0 * x(i)
-      end do
+        ! PARAMETERS
+        integer, parameter :: nmax = 100000
 
-      end
+        ! COMMON ARRAYS
+        double precision l(nmax), u(nmax)
 
-C     *****************************************************************
-C     *****************************************************************
+        ! LOCAL SCALARS
+        integer :: i
 
-      subroutine proj(n,x,flag)
+        ! COMMON BLOCKS
+        common /bounds/ l, u
 
-C     SCALAR ARGUMENTS
-      integer n,flag
+        flag = 0
 
-C     ARRAY ARGUMENTS
-      double precision x(n)
+        do i = 1, n
+            x(i) = max(l(i), min(x(i), u(i)))
+        end do
 
-C     PARAMETERS
-      integer nmax
-      parameter ( nmax = 100000 )
+      end subroutine proj
 
-C     COMMON ARRAYS
-      double precision l(nmax),u(nmax)
+      program spgma
 
-C     LOCAL SCALARS
-      integer i
+        use adolc
+        implicit none
 
-C     COMMON BLOCKS
-      common /bounds/l,u
+        integer :: n
+        double precision :: x(100000), f
+        integer :: flag
 
-      flag = 0
+        call inip(n, x)
+        call evalf(n, x, f, flag)
+        write(*,*) "f =", f
 
-      do i = 1,n
-          x(i) = max( l(i), min( x(i), u(i) ) )
-      end do
-
-      end
-
+      end program spgma

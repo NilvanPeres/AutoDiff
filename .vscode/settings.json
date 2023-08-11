@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "adolc.h": "c",
+    "random": "c",
+    "adouble.h": "c",
+    "cmath": "c",
+    "evalg.C": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "disabled"
+}
