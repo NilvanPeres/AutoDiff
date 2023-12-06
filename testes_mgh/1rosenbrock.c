@@ -40,26 +40,26 @@ void inip(int n, double *x, double *l, double *u)
 
 void evalf(int n, double *x, double *f, int *flag)
 {
+
+   int i;
    *flag = 0;
-
-   trace_on(1);
-
-   adouble *ax = new adouble[n];
-   for (int i = 0; i < n; i++)
-      ax[i] <<= x[i];
-
-   adouble af = pow(10.0 * (ax[1] - pow(ax[0], 2)), 2) + pow(1.0 - ax[0], 2);
-
-   af >>= *f;
-
-   trace_off();
+   *f = pow(10.0 * (x[1] - pow(x[0], 2)), 2) + pow(1.0 - x[0], 2);
 }
+
+/***********************************************************************
+ **********************************************************************/
 
 void evalg(int n, double *x, double *g, int *flag)
 {
+   int i;
+
    *flag = 0;
 
-   gradient(1, n, x, g);
+   double t1 = 10.0 * (x[1] - pow(x[0], 2));
+   double t2 = 1.0 - x[0];
+
+   g[0] = 2.0 * (-20.0 * x[0] * t1 - t2);
+   g[1] = 20.0 * t1;
 }
 
 void proj(int n, double *x, int *flag)

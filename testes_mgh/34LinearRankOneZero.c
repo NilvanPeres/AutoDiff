@@ -72,27 +72,30 @@ void evalg(int n, double *x, double *g, int *flag)
 {
   *flag = 0;
   double s1 = 0.0;
+  double w3[n];
+  double d1;
 
-  for (int i = 2; i < n - 1; i++)
+  for (int i = 1; i < n - 1; i++)
   {
-    s1 += i * x[i];
+    s1 = s1 + (i + 1) * x[i];
   }
 
-  double w3[n - 2];
-
-  for (int i = 2; i < n - 1; i++)
+  for (int i = 1; i < n - 1; i++)
   {
-    w3[i - 2] = (i - 1.0) * ((i - 1.0) * s1 - 1.0);
+    w3[i] = (i) * ((i)*s1 - 1.0);
   }
 
-  double d1 = 2.0 * sum(w3, n - 2);
+  d1 = 0.0;
+  for (int i = 1; i < n - 1; i++)
+  {
+    d1 = d1 + 2.0 * w3[i];
+  }
 
   g[0] = 0.0;
   g[n - 1] = 0.0;
-
-  for (int i = 2; i < n - 1; i++)
+  for (int i = 1; i < n - 1; i++)
   {
-    g[i - 1] = d1 * i;
+    g[i] = d1 * (i + 1);
   }
 }
 void proj(int n, double *x, int *flag)

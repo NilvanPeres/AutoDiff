@@ -1,0 +1,1220 @@
+(1) Rosenbrock - SEM
+
+ Number of iterations               : 61
+ Number of functional evaluations   : 286
+ Objective function value           : 1.300765e-22
+ Sup-norm of the projected gradient : 7.227963e-11
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000000e+00
+ Pontos finais               : x[1] = 1.000000e+00
+
+
+(1) Rosenbrock - COM
+
+ Number of iterations               : 61
+ Number of functional evaluations   : 286
+ Objective function value           : 1.300717e-22
+ Sup-norm of the projected gradient : 7.232348e-11
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000000e+00
+ Pontos finais               : x[1] = 1.000000e+00
+
+(2) Freudenstein and Roth - SEM
+
+ Number of iterations               : 46
+ Number of functional evaluations   : 63
+ Objective function value           : 4.898425e+01
+ Sup-norm of the projected gradient : 8.803225e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.141278e+01
+ Pontos finais               : x[1] = -8.968052e-01
+ 
+(2) Freudenstein and Roth - COM
+
+ Number of iterations               : 46
+ Number of functional evaluations   : 63
+ Objective function value           : 4.898425e+01
+ Sup-norm of the projected gradient : 8.803226e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.141278e+01
+ Pontos finais               : x[1] = -8.968052e-01
+
+(3) Powel Badly Scaled - SEM
+
+ Number of iterations               : 568
+ Number of functional evaluations   : 2775
+ Objective function value           : 2.372760e-07
+ Sup-norm of the projected gradient : 5.833374e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.348146e-05
+ Pontos finais               : x[1] = 7.417596e+00
+
+(3) Powel Badly Scaled - COM
+
+ Number of iterations               : 440
+ Number of functional evaluations   : 2186
+ Objective function value           : 3.398725e-07
+ Sup-norm of the projected gradient : 8.101755e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.375687e-05
+ Pontos finais               : x[1] = 7.269095e+00
+
+(4) Brown Badly Scaled - SEM
+
+ Number of iterations               : 20
+ Number of functional evaluations   : 102
+ Objective function value           : 8.673617e-19
+ Sup-norm of the projected gradient : 1.862645e-09
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000000e+06
+ Pontos finais               : x[1] = 2.000000e-06
+
+(4) Brown Badly Scaled - COM
+
+ Number of iterations               : 20
+ Number of functional evaluations   : 102
+ Objective function value           : 2.168404e-19
+ Sup-norm of the projected gradient : 9.313226e-10
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000000e+06
+ Pontos finais               : x[1] = 2.000000e-06
+
+(5) Beale - SEM
+
+ Number of iterations               : 45
+ Number of functional evaluations   : 47
+ Objective function value           : 3.481420e-16
+ Sup-norm of the projected gradient : 1.697672e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 3.000000e+00
+ Pontos finais               : x[1] = 5.000000e-01
+
+(5) Beale - COM
+
+
+ Number of iterations               : 45
+ Number of functional evaluations   : 47
+ Objective function value           : 3.481427e-16
+ Sup-norm of the projected gradient : 1.697674e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 3.000000e+00
+ Pontos finais               : x[1] = 5.000000e-01
+ 
+(6) Jennrich and Sampson - SEM
+
+ Number of iterations               : 3
+ Number of functional evaluations   : 19
+ Objective function value           : 1.243622e+02
+ Sup-norm of the projected gradient : 1.764647e-08
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 2.578252e-01
+ Pontos finais               : x[1] = 2.578252e-01
+
+(6) Jenrich and Sampson - COM
+
+ Number of iterations               : 3
+ Number of functional evaluations   : 19
+ Objective function value           : 1.243622e+02
+ Sup-norm of the projected gradient : 1.764642e-08
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 2.578252e-01
+ Pontos finais               : x[1] = 2.578252e-01
+ 
+(7) Helical Valley - SEM
+
+ Number of iterations               : 74
+ Number of functional evaluations   : 75
+ Objective function value           : 2.540072e-20
+ Sup-norm of the projected gradient : 5.043813e-09
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000000e+00
+ Pontos finais               : x[1] = 7.754530e-12
+ Pontos finais               : x[2] = -3.503888e-12
+
+(7) Helical Valley - COM
+
+ Number of iterations               : 74
+ Number of functional evaluations   : 75
+ Objective function value           : 2.540061e-20
+ Sup-norm of the projected gradient : 5.043803e-09
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000000e+00
+ Pontos finais               : x[1] = 7.754515e-12
+ Pontos finais               : x[2] = -3.503879e-12
+
+(8) Bard - SEM
+
+ Number of iterations               : 92
+ Number of functional evaluations   : 97
+ Objective function value           : 8.214877e-03
+ Sup-norm of the projected gradient : 1.394848e-08
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 8.241062e-02
+ Pontos finais               : x[1] = 1.133038e+00
+ Pontos finais               : x[2] = 2.343693e+00
+
+(8) Bard - COM
+
+ Number of iterations               : 92
+ Number of functional evaluations   : 97
+ Objective function value           : 8.214877e-03
+ Sup-norm of the projected gradient : 1.421139e-08
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 8.241062e-02
+ Pontos finais               : x[1] = 1.133038e+00
+ Pontos finais               : x[2] = 2.343693e+00
+ 
+(9) Gaussian - SEM
+
+ Number of iterations               : 5
+ Number of functional evaluations   : 15
+ Objective function value           : 1.127933e-08
+ Sup-norm of the projected gradient : 3.607592e-08
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 3.989561e-01
+ Pontos finais               : x[1] = 1.000019e+00
+ Pontos finais               : x[2] = -5.672794e-21
+
+(9) Gaussian - COM
+
+ Number of iterations               : 5
+ Number of functional evaluations   : 15
+ Objective function value           : 1.127933e-08
+ Sup-norm of the projected gradient : 3.607592e-08
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 3.989561e-01
+ Pontos finais               : x[1] = 1.000019e+00
+ Pontos finais               : x[2] = -3.320572e-20
+
+
+
+(10) Meyern - SEM - Nao convergiu
+
+ Number of iterations               : 50000
+ Number of functional evaluations   : 218330
+ Objective function value           : 4.242790e+04
+ Sup-norm of the projected gradient : 1.662505e+05
+
+ Flag of SPG: Maximum of iterations reached.
+ Pontos finais               : x[0] = 3.853237e-02
+ Pontos finais               : x[1] = 4.679140e+03
+ Pontos finais               : x[2] = 2.911534e+02
+
+(10) Meyern - COM - Não convergiu
+
+ Number of iterations               : 50000
+ Number of functional evaluations   : 211231
+ Objective function value           : 4.327260e+04
+ Sup-norm of the projected gradient : 4.208585e+07
+
+ Flag of SPG: Maximum of iterations reached.
+ Pontos finais               : x[0] = 3.918839e-02
+ Pontos finais               : x[1] = 4.667072e+03
+ Pontos finais               : x[2] = 2.906927e+02
+
+(11) Gulf research and development function - SEM
+
+ Number of iterations               : 1669
+ Number of functional evaluations   : 2351
+ Objective function value           : 5.193199e-09
+ Sup-norm of the projected gradient : 3.759287e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 4.997240e+01
+ Pontos finais               : x[1] = 2.500095e+01
+ Pontos finais               : x[2] = 1.499831e+00
+ 
+(11) Gulf - COM
+
+ Number of iterations               : 1525
+ Number of functional evaluations   : 2386
+ Objective function value           : 1.588291e-10
+ Sup-norm of the projected gradient : 7.854052e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 4.999517e+01
+ Pontos finais               : x[1] = 2.500017e+01
+ Pontos finais               : x[2] = 1.499971e+00
+
+ 
+(12) Box three-dimensional function - SEM
+
+ Number of iterations               : 48
+ Number of functional evaluations   : 49
+ Objective function value           : 7.407840e-11
+ Sup-norm of the projected gradient : 3.752579e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000676e+00
+ Pontos finais               : x[1] = 9.997713e+00
+ Pontos finais               : x[2] = 9.997375e-01
+ 
+(12) Box three-dimensional function - COM
+
+ Number of iterations               : 48
+ Number of functional evaluations   : 49
+ Objective function value           : 7.408134e-11
+ Sup-norm of the projected gradient : 3.755033e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000676e+00
+ Pontos finais               : x[1] = 9.997713e+00
+ Pontos finais               : x[2] = 9.997375e-01
+
+(13) Powel Singular - SEM
+
+ Number of iterations               : 172
+ Number of functional evaluations   : 175
+ Objective function value           : 1.424779e-09
+ Sup-norm of the projected gradient : 8.670138e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 4.029534e-03
+ Pontos finais               : x[1] = -4.029485e-04
+ Pontos finais               : x[2] = 2.660696e-03
+ Pontos finais               : x[3] = 2.660815e-03
+ 
+(13) Powel Singular - COM
+
+ Number of iterations               : 178
+ Number of functional evaluations   : 179
+ Objective function value           : 1.404320e-09
+ Sup-norm of the projected gradient : 7.475338e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 3.938047e-03
+ Pontos finais               : x[1] = -3.938010e-04
+ Pontos finais               : x[2] = 2.748384e-03
+ Pontos finais               : x[3] = 2.748525e-03
+
+( 14 ) Wood - SEM
+
+ Number of iterations               : 228
+ Number of functional evaluations   : 331
+ Objective function value           : 6.142911e-14
+ Sup-norm of the projected gradient : 3.753757e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000000e+00
+ Pontos finais               : x[1] = 1.000000e+00
+ Pontos finais               : x[2] = 9.999999e-01
+ Pontos finais               : x[3] = 9.999997e-01
+
+( 14 ) Wood - COM
+
+ Number of iterations               : 187
+ Number of functional evaluations   : 290
+ Objective function value           : 2.529588e-17
+ Sup-norm of the projected gradient : 3.860930e-08
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000000e+00
+ Pontos finais               : x[1] = 1.000000e+00
+ Pontos finais               : x[2] = 1.000000e+00
+ Pontos finais               : x[3] = 1.000000e+00
+ 
+ 
+( 15 ) Kowalik and Osborne - SEM
+
+ Number of iterations               : 145
+ Number of functional evaluations   : 190
+ Objective function value           : 3.075058e-04
+ Sup-norm of the projected gradient : 7.635512e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.928177e-01
+ Pontos finais               : x[1] = 1.909913e-01
+ Pontos finais               : x[2] = 1.229732e-01
+ Pontos finais               : x[3] = 1.359333e-01
+ 
+( 15 ) Kowalik and Osborne - COM
+
+ Number of iterations               : 155
+ Number of functional evaluations   : 199
+ Objective function value           : 3.075056e-04
+ Sup-norm of the projected gradient : 2.652392e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.928104e-01
+ Pontos finais               : x[1] = 1.911939e-01
+ Pontos finais               : x[2] = 1.230326e-01
+ Pontos finais               : x[3] = 1.360230e-01
+ 
+(16) Brown and Dennis - SEM
+
+ Number of iterations               : 57
+ Number of functional evaluations   : 60
+ Objective function value           : 8.582220e+04
+ Sup-norm of the projected gradient : 3.513384e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = -1.159444e+01
+ Pontos finais               : x[1] = 1.320363e+01
+ Pontos finais               : x[2] = -4.034395e-01
+ Pontos finais               : x[3] = 2.367788e-01
+ 
+(16) Brown and Dennis - COM
+
+ Number of iterations               : 57
+ Number of functional evaluations   : 60
+ Objective function value           : 8.582220e+04
+ Sup-norm of the projected gradient : 3.131764e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = -1.159444e+01
+ Pontos finais               : x[1] = 1.320363e+01
+ Pontos finais               : x[2] = -4.034395e-01
+ Pontos finais               : x[3] = 2.367788e-01
+ 
+(17) Osborne One function - SEM
+ 
+ Number of iterations               : 32452
+ Number of functional evaluations   : 49838
+ Objective function value           : 5.465218e-05
+ Sup-norm of the projected gradient : 5.900058e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 3.753321e-01
+ Pontos finais               : x[1] = 1.926838e+00
+ Pontos finais               : x[2] = -1.455619e+00
+ Pontos finais               : x[3] = 1.284918e-02
+ Pontos finais               : x[4] = 2.215941e-02
+
+(17) Osborne One - COM 
+
+ Number of iterations               : 46582
+ Number of functional evaluations   : 72833
+ Objective function value           : 5.465320e-05
+ Sup-norm of the projected gradient : 7.919591e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 3.753208e-01
+ Pontos finais               : x[1] = 1.925518e+00
+ Pontos finais               : x[2] = -1.454291e+00
+ Pontos finais               : x[3] = 1.284648e-02
+ Pontos finais               : x[4] = 2.216484e-02
+
+(18) Biggs EXP 6 - SEM
+
+ Number of iterations               : 573
+ Number of functional evaluations   : 760
+ Objective function value           : 5.655650e-03
+ Sup-norm of the projected gradient : 6.365884e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.711417e+00
+ Pontos finais               : x[1] = 1.768313e+01
+ Pontos finais               : x[2] = 1.163145e+00
+ Pontos finais               : x[3] = 5.186541e+00
+ Pontos finais               : x[4] = 1.711417e+00
+ Pontos finais               : x[5] = 1.163145e+00
+ 
+( 18 )  Biggs EXP 6 - COM
+
+ Number of iterations               : 642
+ Number of functional evaluations   : 854
+ Objective function value           : 5.655653e-03
+ Sup-norm of the projected gradient : 9.594937e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.711486e+00
+ Pontos finais               : x[1] = 1.767746e+01
+ Pontos finais               : x[2] = 1.163205e+00
+ Pontos finais               : x[3] = 5.184068e+00
+ Pontos finais               : x[4] = 1.711486e+00
+ Pontos finais               : x[5] = 1.163205e+00
+ 
+( 19 ) Osborne 2 Function - SEM
+
+ Number of iterations               : 1371
+ Number of functional evaluations   : 1491
+ Objective function value           : 4.013774e-02
+ Sup-norm of the projected gradient : 9.857003e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.309978e+00
+ Pontos finais               : x[1] = 4.315567e-01
+ Pontos finais               : x[2] = 6.336622e-01
+ Pontos finais               : x[3] = 5.994389e-01
+ Pontos finais               : x[4] = 7.541900e-01
+ Pontos finais               : x[5] = 9.042649e-01
+ Pontos finais               : x[6] = 1.365861e+00
+ Pontos finais               : x[7] = 4.823539e+00
+ Pontos finais               : x[8] = 2.398687e+00
+ Pontos finais               : x[9] = 4.568867e+00
+ Pontos finais               : x[10] = 5.675337e+00
+
+ 
+( 19 ) Osborne 2 Function - COM
+
+ Number of iterations               : 1144
+ Number of functional evaluations   : 1209
+ Objective function value           : 4.013774e-02
+ Sup-norm of the projected gradient : 7.511502e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.309976e+00
+ Pontos finais               : x[1] = 4.315513e-01
+ Pontos finais               : x[2] = 6.336611e-01
+ Pontos finais               : x[3] = 5.994226e-01
+ Pontos finais               : x[4] = 7.541771e-01
+ Pontos finais               : x[5] = 9.043133e-01
+ Pontos finais               : x[6] = 1.365764e+00
+ Pontos finais               : x[7] = 4.823833e+00
+ Pontos finais               : x[8] = 2.398682e+00
+ Pontos finais               : x[9] = 4.568881e+00
+ Pontos finais               : x[10] = 5.675345e+00
+
+( 20 ) Watson - SEM
+
+ Number of iterations               : 2043
+ Number of functional evaluations   : 2265
+ Objective function value           : 2.287670e-03
+ Sup-norm of the projected gradient : 4.923332e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = -1.572521e-02
+ Pontos finais               : x[1] = 1.012434e+00
+ Pontos finais               : x[2] = -2.329868e-01
+ Pontos finais               : x[3] = 1.260416e+00
+ Pontos finais               : x[4] = -1.513714e+00
+ Pontos finais               : x[5] = 9.929905e-01
+ 
+( 20 ) Watson - COM
+ 
+ Number of iterations               : 1771
+ Number of functional evaluations   : 1925
+ Objective function value           : 2.287670e-03
+ Sup-norm of the projected gradient : 4.587229e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = -1.572557e-02
+ Pontos finais               : x[1] = 1.012433e+00
+ Pontos finais               : x[2] = -2.329752e-01
+ Pontos finais               : x[3] = 1.260383e+00
+ Pontos finais               : x[4] = -1.513677e+00
+ Pontos finais               : x[5] = 9.929757e-01
+ 
+( 21 ) Extended Rosenbrock - SEM
+
+ Number of iterations               : 61
+ Number of functional evaluations   : 286
+ Objective function value           : 6.504088e-22
+ Sup-norm of the projected gradient : 7.232437e-11
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000000e+00
+ Pontos finais               : x[1] = 1.000000e+00
+ Pontos finais               : x[2] = 1.000000e+00
+ Pontos finais               : x[3] = 1.000000e+00
+ Pontos finais               : x[4] = 1.000000e+00
+ Pontos finais               : x[5] = 1.000000e+00
+ Pontos finais               : x[6] = 1.000000e+00
+ Pontos finais               : x[7] = 1.000000e+00
+ Pontos finais               : x[8] = 1.000000e+00
+ Pontos finais               : x[9] = 1.000000e+00
+ 
+( 21 ) Extended Rosenbrock - COM
+
+ Number of iterations               : 61
+ Number of functional evaluations   : 286
+ Objective function value           : 6.503195e-22
+ Sup-norm of the projected gradient : 7.227863e-11
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000000e+00
+ Pontos finais               : x[1] = 1.000000e+00
+ Pontos finais               : x[2] = 1.000000e+00
+ Pontos finais               : x[3] = 1.000000e+00
+ Pontos finais               : x[4] = 1.000000e+00
+ Pontos finais               : x[5] = 1.000000e+00
+ Pontos finais               : x[6] = 1.000000e+00
+ Pontos finais               : x[7] = 1.000000e+00
+ Pontos finais               : x[8] = 1.000000e+00
+ Pontos finais               : x[9] = 1.000000e+00
+
+( 22 ) Extended Powel - SEM
+
+ Number of iterations               : 134
+ Number of functional evaluations   : 135
+ Objective function value           : 3.108093e-09
+ Sup-norm of the projected gradient : 7.944080e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 4.361351e-03
+ Pontos finais               : x[1] = -4.361278e-04
+ Pontos finais               : x[2] = 2.540116e-03
+ Pontos finais               : x[3] = 2.540189e-03
+ Pontos finais               : x[4] = 4.361351e-03
+ Pontos finais               : x[5] = -4.361278e-04
+ Pontos finais               : x[6] = 2.540116e-03
+ Pontos finais               : x[7] = 2.540189e-03
+ Pontos finais               : x[8] = 4.361351e-03
+ Pontos finais               : x[9] = -4.361278e-04
+ Pontos finais               : x[10] = 2.540116e-03
+ Pontos finais               : x[11] = 2.540189e-03
+
+
+( 22 ) Extended Powel - COM
+
+ Number of iterations               : 134
+ Number of functional evaluations   : 135
+ Objective function value           : 3.107123e-09
+ Sup-norm of the projected gradient : 7.982340e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 4.360856e-03
+ Pontos finais               : x[1] = -4.360783e-04
+ Pontos finais               : x[2] = 2.539961e-03
+ Pontos finais               : x[3] = 2.540034e-03
+ Pontos finais               : x[4] = 4.360856e-03
+ Pontos finais               : x[5] = -4.360783e-04
+ Pontos finais               : x[6] = 2.539961e-03
+ Pontos finais               : x[7] = 2.540034e-03
+ Pontos finais               : x[8] = 4.360856e-03
+ Pontos finais               : x[9] = -4.360783e-04
+ Pontos finais               : x[10] = 2.539961e-03
+ Pontos finais               : x[11] = 2.540034e-03
+
+
+( 23 ) Penalty 1 - SEM
+
+ Number of iterations               : 717
+ Number of functional evaluations   : 21540
+ Objective function value           : 7.087652e-05
+ Sup-norm of the projected gradient : 2.631438e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.579547e-01
+ Pontos finais               : x[1] = 1.579919e-01
+ Pontos finais               : x[2] = 1.580292e-01
+ Pontos finais               : x[3] = 1.580665e-01
+ Pontos finais               : x[4] = 1.581038e-01
+ Pontos finais               : x[5] = 1.581410e-01
+ Pontos finais               : x[6] = 1.581783e-01
+ Pontos finais               : x[7] = 1.582156e-01
+ Pontos finais               : x[8] = 1.582528e-01
+ Pontos finais               : x[9] = 1.582901e-01
+ 
+( 23 ) Penalty 1 - COM
+
+ Number of iterations               : 717
+ Number of functional evaluations   : 21540
+ Objective function value           : 7.087652e-05
+ Sup-norm of the projected gradient : 2.631438e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.579547e-01
+ Pontos finais               : x[1] = 1.579919e-01
+ Pontos finais               : x[2] = 1.580292e-01
+ Pontos finais               : x[3] = 1.580665e-01
+ Pontos finais               : x[4] = 1.581038e-01
+ Pontos finais               : x[5] = 1.581410e-01
+ Pontos finais               : x[6] = 1.581783e-01
+ Pontos finais               : x[7] = 1.582156e-01
+ Pontos finais               : x[8] = 1.582528e-01
+ Pontos finais               : x[9] = 1.582901e-01
+       : 717
+ Number of functional evaluations   : 21540
+ Objective function value           : 7.087652e-05
+ Sup-norm of the projected gradient : 2.631438e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.579547e-01
+ Pontos finais               : x[1] = 1.579919e-01
+ Pontos finais               : x[2] = 1.580292e-01
+ Pontos finais               : x[3] = 1.580665e-01
+ Pontos finais               : x[4] = 1.581038e-01
+ Pontos finais               : x[5] = 1.581410e-01
+ Pontos finais               : x[6] = 1.581783e-01
+ Pontos finais               : x[7] = 1.582156e-01
+ Pontos finais               : x[8] = 1.582528e-01
+ Pontos finais               : x[9] = 1.582901e-01
+
+( 24 )  Penalty 2 - SEM - NÃO CONVERGIU
+
+ Number of iterations               : 293
+ Number of functional evaluations   : 706
+ Objective function value           : 1.218010e-02
+ Sup-norm of the projected gradient : 3.764135e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 9.113319e-02
+ Pontos finais               : x[1] = 9.103748e-07
+ Pontos finais               : x[2] = 1.647873e-06
+ Pontos finais               : x[3] = 2.990133e-06
+ Pontos finais               : x[4] = 5.393691e-06
+ Pontos finais               : x[5] = 9.565555e-06
+ Pontos finais               : x[6] = 1.614651e-05
+ Pontos finais               : x[7] = 3.057861e-05
+ Pontos finais               : x[8] = 6.491946e-05
+ Pontos finais               : x[9] = 8.178120e-05
+ 
+( 24 )  Penalty 2 - COM - NÃO CONVERGIU
+
+ Number of iterations               : 469
+ Number of functional evaluations   : 1712
+ Objective function value           : 1.218010e-02
+ Sup-norm of the projected gradient : 4.436872e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 9.113319e-02
+ Pontos finais               : x[1] = 7.238344e-07
+ Pontos finais               : x[2] = 1.570893e-06
+ Pontos finais               : x[3] = 2.959414e-06
+ Pontos finais               : x[4] = 5.431031e-06
+ Pontos finais               : x[5] = 9.043224e-06
+ Pontos finais               : x[6] = 1.631068e-05
+ Pontos finais               : x[7] = 3.142825e-05
+ Pontos finais               : x[8] = 6.512943e-05
+ Pontos finais               : x[9] = 8.367955e-05
+ 
+( 25 )  Variable Dimensioned - SEM
+
+ Number of iterations               : 63
+ Number of functional evaluations   : 64
+ Objective function value           : 2.131230e-23
+ Sup-norm of the projected gradient : 4.924172e-12
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000000e+00
+ Pontos finais               : x[1] = 1.000000e+00
+ Pontos finais               : x[2] = 1.000000e+00
+ Pontos finais               : x[3] = 1.000000e+00
+ Pontos finais               : x[4] = 1.000000e+00
+ Pontos finais               : x[5] = 1.000000e+00
+ Pontos finais               : x[6] = 1.000000e+00
+ Pontos finais               : x[7] = 1.000000e+00
+ Pontos finais               : x[8] = 1.000000e+00
+ Pontos finais               : x[9] = 1.000000e+00
+ 
+( 25 )  Variable Dimensioned - COM
+
+
+ Number of iterations               : 63
+ Number of functional evaluations   : 64
+ Objective function value           : 2.130557e-23
+ Sup-norm of the projected gradient : 6.009859e-12
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000000e+00
+ Pontos finais               : x[1] = 1.000000e+00
+ Pontos finais               : x[2] = 1.000000e+00
+ Pontos finais               : x[3] = 1.000000e+00
+ Pontos finais               : x[4] = 1.000000e+00
+ Pontos finais               : x[5] = 1.000000e+00
+ Pontos finais               : x[6] = 1.000000e+00
+ Pontos finais               : x[7] = 1.000000e+00
+ Pontos finais               : x[8] = 1.000000e+00
+ Pontos finais               : x[9] = 1.000000e+00
+
+( 26 )  Trignomeric - SEM
+
+ Number of iterations               : 5
+ Number of functional evaluations   : 9
+ Objective function value           : 1.133278e-17
+ Sup-norm of the projected gradient : 6.633368e-09
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 3.316684e-09
+ Pontos finais               : x[1] = -3.580765e-10
+ Pontos finais               : x[2] = -2.757255e-10
+ Pontos finais               : x[3] = -1.946466e-10
+ Pontos finais               : x[4] = -1.158867e-10
+ Pontos finais               : x[5] = -4.050471e-11
+ Pontos finais               : x[6] = 3.038213e-11
+ Pontos finais               : x[7] = 9.558523e-11
+ Pontos finais               : x[8] = 1.538054e-10
+ Pontos finais               : x[9] = 2.036519e-10
+ 
+( 26 )  Trignomeric - COM
+
+ Number of iterations               : 5
+ Number of functional evaluations   : 9
+ Objective function value           : 1.133278e-17
+ Sup-norm of the projected gradient : 6.633368e-09
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 3.316684e-09
+ Pontos finais               : x[1] = -3.580765e-10
+ Pontos finais               : x[2] = -2.757255e-10
+ Pontos finais               : x[3] = -1.946466e-10
+ Pontos finais               : x[4] = -1.158867e-10
+ Pontos finais               : x[5] = -4.050471e-11
+ Pontos finais               : x[6] = 3.038213e-11
+ Pontos finais               : x[7] = 9.558523e-11
+ Pontos finais               : x[8] = 1.538054e-10
+ Pontos finais               : x[9] = 2.036519e-10
+ 
+( 27 ) Brown almost-linear - SEM 
+
+ Number of iterations               : 109
+ Number of functional evaluations   : 110
+ Objective function value           : 5.976438e-12
+ Sup-norm of the projected gradient : 1.163003e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000002e+00
+ Pontos finais               : x[1] = 1.000002e+00
+ Pontos finais               : x[2] = 1.000002e+00
+ Pontos finais               : x[3] = 1.000002e+00
+ Pontos finais               : x[4] = 1.000002e+00
+ Pontos finais               : x[5] = 1.000002e+00
+ Pontos finais               : x[6] = 1.000002e+00
+ Pontos finais               : x[7] = 1.000002e+00
+ Pontos finais               : x[8] = 1.000002e+00
+ Pontos finais               : x[9] = 1.000002e+00
+ Pontos finais               : x[10] = 1.000002e+00
+ Pontos finais               : x[11] = 1.000002e+00
+ Pontos finais               : x[12] = 1.000002e+00
+ Pontos finais               : x[13] = 1.000002e+00
+ Pontos finais               : x[14] = 1.000002e+00
+ Pontos finais               : x[15] = 1.000002e+00
+ Pontos finais               : x[16] = 1.000002e+00
+ Pontos finais               : x[17] = 1.000002e+00
+ Pontos finais               : x[18] = 1.000002e+00
+ Pontos finais               : x[19] = 1.000002e+00
+ Pontos finais               : x[20] = 1.000002e+00
+ Pontos finais               : x[21] = 1.000002e+00
+ Pontos finais               : x[22] = 1.000002e+00
+ Pontos finais               : x[23] = 1.000002e+00
+ Pontos finais               : x[24] = 1.000002e+00
+ Pontos finais               : x[25] = 1.000002e+00
+ Pontos finais               : x[26] = 1.000002e+00
+ Pontos finais               : x[27] = 1.000002e+00
+ Pontos finais               : x[28] = 1.000002e+00
+ Pontos finais               : x[29] = 1.000002e+00
+ Pontos finais               : x[30] = 1.000002e+00
+ Pontos finais               : x[31] = 1.000002e+00
+ Pontos finais               : x[32] = 1.000002e+00
+ Pontos finais               : x[33] = 1.000002e+00
+ Pontos finais               : x[34] = 1.000002e+00
+ Pontos finais               : x[35] = 1.000002e+00
+ Pontos finais               : x[36] = 1.000002e+00
+ Pontos finais               : x[37] = 1.000002e+00
+ Pontos finais               : x[38] = 1.000002e+00
+ Pontos finais               : x[39] = 9.999012e-01
+
+
+
+
+( 27 ) Brown almost-linear - COM  
+
+ Number of iterations               : 141
+ Number of functional evaluations   : 143
+ Objective function value           : 3.695838e-13
+ Sup-norm of the projected gradient : 4.573764e-08
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000001e+00
+ Pontos finais               : x[1] = 1.000001e+00
+ Pontos finais               : x[2] = 1.000001e+00
+ Pontos finais               : x[3] = 1.000001e+00
+ Pontos finais               : x[4] = 1.000001e+00
+ Pontos finais               : x[5] = 1.000001e+00
+ Pontos finais               : x[6] = 1.000001e+00
+ Pontos finais               : x[7] = 1.000001e+00
+ Pontos finais               : x[8] = 1.000001e+00
+ Pontos finais               : x[9] = 1.000001e+00
+ Pontos finais               : x[10] = 1.000001e+00
+ Pontos finais               : x[11] = 1.000001e+00
+ Pontos finais               : x[12] = 1.000001e+00
+ Pontos finais               : x[13] = 1.000001e+00
+ Pontos finais               : x[14] = 1.000001e+00
+ Pontos finais               : x[15] = 1.000001e+00
+ Pontos finais               : x[16] = 1.000001e+00
+ Pontos finais               : x[17] = 1.000001e+00
+ Pontos finais               : x[18] = 1.000001e+00
+ Pontos finais               : x[19] = 1.000001e+00
+ Pontos finais               : x[20] = 1.000001e+00
+ Pontos finais               : x[21] = 1.000001e+00
+ Pontos finais               : x[22] = 1.000001e+00
+ Pontos finais               : x[23] = 1.000001e+00
+ Pontos finais               : x[24] = 1.000001e+00
+ Pontos finais               : x[25] = 1.000001e+00
+ Pontos finais               : x[26] = 1.000001e+00
+ Pontos finais               : x[27] = 1.000001e+00
+ Pontos finais               : x[28] = 1.000001e+00
+ Pontos finais               : x[29] = 1.000001e+00
+ Pontos finais               : x[30] = 1.000001e+00
+ Pontos finais               : x[31] = 1.000001e+00
+ Pontos finais               : x[32] = 1.000001e+00
+ Pontos finais               : x[33] = 1.000001e+00
+ Pontos finais               : x[34] = 1.000001e+00
+ Pontos finais               : x[35] = 1.000001e+00
+ Pontos finais               : x[36] = 1.000001e+00
+ Pontos finais               : x[37] = 1.000001e+00
+ Pontos finais               : x[38] = 1.000001e+00
+ Pontos finais               : x[39] = 9.999754e-0
+ 
+( 28 )  Discrete boundary value - SEM
+
+ Number of iterations               : 3383
+ Number of functional evaluations   : 500000
+ Objective function value           : 6.058900e-04
+ Sup-norm of the projected gradient : 1.521699e+55
+
+ Flag of SPG: Maximum of functional evaluations reached.
+ Pontos finais               : x[0] = -7.117538e-02
+ Pontos finais               : x[1] = -1.334284e-01
+ Pontos finais               : x[2] = -1.841123e-01
+ Pontos finais               : x[3] = -2.203973e-01
+ Pontos finais               : x[4] = -2.401613e-01
+ Pontos finais               : x[5] = -2.432706e-01
+ Pontos finais               : x[6] = -2.300322e-01
+ Pontos finais               : x[7] = -2.006434e-01
+ Pontos finais               : x[8] = -1.549949e-01
+ Pontos finais               : x[9] = -9.203021e-02
+ 
+( 28 )  Discrete boundary value - COM
+
+ Number of iterations               : 340
+ Number of functional evaluations   : 384
+ Objective function value           : 2.277533e-11
+ Sup-norm of the projected gradient : 5.728448e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = -3.757519e-02
+ Pontos finais               : x[1] = -7.032045e-02
+ Pontos finais               : x[2] = -9.867184e-02
+ Pontos finais               : x[3] = -1.217706e-01
+ Pontos finais               : x[4] = -1.385672e-01
+ Pontos finais               : x[5] = -1.477643e-01
+ Pontos finais               : x[6] = -1.477381e-01
+ Pontos finais               : x[7] = -1.364267e-01
+ Pontos finais               : x[8] = -1.111692e-01
+ Pontos finais               : x[9] = -6.846877e-02
+ 
+( 29 ) Discret Integral Equation - SEM
+ 
+ Number of iterations               : 8
+ Number of functional evaluations   : 11
+ Objective function value           : 5.639813e-15
+ Sup-norm of the projected gradient : 7.962947e-08
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = -5.287162e-03
+ Pontos finais               : x[1] = -4.665039e-02
+ Pontos finais               : x[2] = -8.215658e-02
+ Pontos finais               : x[3] = -1.113740e-01
+ Pontos finais               : x[4] = -1.338264e-01
+ Pontos finais               : x[5] = -1.489999e-01
+ Pontos finais               : x[6] = -1.563554e-01
+ Pontos finais               : x[7] = -1.553461e-01
+ Pontos finais               : x[8] = -1.454427e-01
+ Pontos finais               : x[9] = -1.261683e-01
+ 
+( 29 ) Discret Integral Equation - COM
+
+ Number of iterations               : 8
+ Number of functional evaluations   : 11
+ Objective function value           : 4.258513e-15
+ Sup-norm of the projected gradient : 7.030925e-08
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = -5.287124e-03
+ Pontos finais               : x[1] = -4.665045e-02
+ Pontos finais               : x[2] = -8.215659e-02
+ Pontos finais               : x[3] = -1.113740e-01
+ Pontos finais               : x[4] = -1.338263e-01
+ Pontos finais               : x[5] = -1.489999e-01
+ Pontos finais               : x[6] = -1.563554e-01
+ Pontos finais               : x[7] = -1.553461e-01
+ Pontos finais               : x[8] = -1.454428e-01
+ Pontos finais               : x[9] = -1.261683e-01
+ 
+ 
+(30) Broyden Triadigonal - SEM
+ 
+ Number of iterations               : 44
+ Number of functional evaluations   : 46
+ Objective function value           : 7.530949e-15
+ Sup-norm of the projected gradient : 6.623607e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = -5.707221e-01
+ Pontos finais               : x[1] = -6.818070e-01
+ Pontos finais               : x[2] = -7.022101e-01
+ Pontos finais               : x[3] = -7.055106e-01
+ Pontos finais               : x[4] = -7.049062e-01
+ Pontos finais               : x[5] = -7.014966e-01
+ Pontos finais               : x[6] = -6.918893e-01
+ Pontos finais               : x[7] = -6.657965e-01
+ Pontos finais               : x[8] = -5.960351e-01
+ Pontos finais               : x[9] = -4.164123e-01
+ 
+(30) BroydenTriadigonal - COM
+ 
+ Number of iterations               : 44
+ Number of functional evaluations   : 46
+ Objective function value           : 7.530949e-15
+ Sup-norm of the projected gradient : 6.623607e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = -5.707221e-01
+ Pontos finais               : x[1] = -6.818070e-01
+ Pontos finais               : x[2] = -7.022101e-01
+ Pontos finais               : x[3] = -7.055106e-01
+ Pontos finais               : x[4] = -7.049062e-01
+ Pontos finais               : x[5] = -7.014966e-01
+ Pontos finais               : x[6] = -6.918893e-01
+ Pontos finais               : x[7] = -6.657965e-01
+ Pontos finais               : x[8] = -5.960351e-01
+ Pontos finais               : x[9] = -4.164123e-01
+
+(31) Broyden Banded - SEM - Não convergiu
+
+ Number of iterations               : 4
+ Number of functional evaluations   : 500000
+ Objective function value           : 9.263956e+00
+ Sup-norm of the projected gradient : 3.285131e+01
+
+ Flag of SPG: Maximum of functional evaluations reached.
+ Pontos finais               : x[0] = 0.000000e+00
+ Pontos finais               : x[1] = -3.092784e-02
+ Pontos finais               : x[2] = 4.123711e-02
+ Pontos finais               : x[3] = 4.123711e-02
+ Pontos finais               : x[4] = 4.123711e-02
+ Pontos finais               : x[5] = 3.092784e-02
+ Pontos finais               : x[6] = 2.061856e-02
+ Pontos finais               : x[7] = 1.030928e-02
+ Pontos finais               : x[8] = 0.000000e+00
+ Pontos finais               : x[9] = -1.030928e-02
+
+
+(31) Broyden banded - COM
+
+ Number of iterations               : 51
+ Number of functional evaluations   : 54
+ Objective function value           : 2.148069e-15
+ Sup-norm of the projected gradient : 3.777006e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = -3.716578e-01
+ Pontos finais               : x[1] = -4.249363e-01
+ Pontos finais               : x[2] = -4.735177e-01
+ Pontos finais               : x[3] = -5.173743e-01
+ Pontos finais               : x[4] = -5.568267e-01
+ Pontos finais               : x[5] = -5.923151e-01
+ Pontos finais               : x[6] = -5.934083e-01
+ Pontos finais               : x[7] = -5.929837e-01
+ Pontos finais               : x[8] = -5.918901e-01
+ Pontos finais               : x[9] = -5.907663e-01
+ 
+(32) Linear Function Full Rank - SEM
+
+ Number of iterations               : 2
+ Number of functional evaluations   : 3
+ Objective function value           : 0.000000e+00
+ Sup-norm of the projected gradient : 0.000000e+00
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = -1.000000e+00
+ Pontos finais               : x[1] = -1.000000e+00
+ Pontos finais               : x[2] = -1.000000e+00
+ Pontos finais               : x[3] = -1.000000e+00
+ Pontos finais               : x[4] = -1.000000e+00
+ Pontos finais               : x[5] = -1.000000e+00
+ Pontos finais               : x[6] = -1.000000e+00
+ Pontos finais               : x[7] = -1.000000e+00
+ Pontos finais               : x[8] = -1.000000e+00
+ Pontos finais               : x[9] = -1.000000e+00
+
+ 
+(32) Linear Function Full Rank - COM 
+
+ Number of iterations               : 2
+ Number of functional evaluations   : 3
+ Objective function value           : 4.930381e-32
+ Sup-norm of the projected gradient : 4.440892e-16
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = -1.000000e+00
+ Pontos finais               : x[1] = -1.000000e+00
+ Pontos finais               : x[2] = -1.000000e+00
+ Pontos finais               : x[3] = -1.000000e+00
+ Pontos finais               : x[4] = -1.000000e+00
+ Pontos finais               : x[5] = -1.000000e+00
+ Pontos finais               : x[6] = -1.000000e+00
+ Pontos finais               : x[7] = -1.000000e+00
+ Pontos finais               : x[8] = -1.000000e+00
+ Pontos finais               : x[9] = -1.000000e+0
+ 
+(33) Linear Function Rank One - SEM - Acho que convergiu
+
+ Number of iterations               : 2
+ Number of functional evaluations   : 8
+ Objective function value           : 2.142857e+00
+ Sup-norm of the projected gradient : 4.973799e-13
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 9.977737e-01
+ Pontos finais               : x[1] = -4.452690e-03
+ Pontos finais               : x[2] = -6.679035e-03
+ Pontos finais               : x[3] = -8.905380e-03
+ Pontos finais               : x[4] = -1.113173e-02
+ Pontos finais               : x[5] = -1.335807e-02
+ Pontos finais               : x[6] = -1.558442e-02
+ Pontos finais               : x[7] = -1.781076e-02
+ Pontos finais               : x[8] = -2.003711e-02
+ Pontos finais               : x[9] = -2.226345e-02
+
+
+
+ 
+ (33) Linear Function Rank One- COM - Acho que convergiu
+ 
+ Number of iterations               : 2
+ Number of functional evaluations   : 8
+ Objective function value           : 2.142857e+00
+ Sup-norm of the projected gradient : 5.062617e-13
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 9.977737e-01
+ Pontos finais               : x[1] = -4.452690e-03
+ Pontos finais               : x[2] = -6.679035e-03
+ Pontos finais               : x[3] = -8.905380e-03
+ Pontos finais               : x[4] = -1.113173e-02
+ Pontos finais               : x[5] = -1.335807e-02
+ Pontos finais               : x[6] = -1.558442e-02
+ Pontos finais               : x[7] = -1.781076e-02
+ Pontos finais               : x[8] = -2.003711e-02
+ Pontos finais               : x[9] = -2.226345e-02
+
+
+
+(34) Linear Function Rank One With Zero Columns and Rows - SEM - Acho que não convergiu
+
+ Number of iterations               : 2355
+ Number of functional evaluations   : 500000
+ Objective function value           : 2.618020e+05
+ Sup-norm of the projected gradient : 2.602880e+36
+
+ Flag of SPG: Maximum of functional evaluations reached.
+ Pontos finais               : x[0] = 1.000000e+00
+ Pontos finais               : x[1] = 0.000000e+00
+ Pontos finais               : x[2] = 0.000000e+00
+ Pontos finais               : x[3] = 0.000000e+00
+ Pontos finais               : x[4] = 0.000000e+00
+ Pontos finais               : x[5] = 0.000000e+00
+ Pontos finais               : x[6] = 0.000000e+00
+ Pontos finais               : x[7] = 0.000000e+00
+ Pontos finais               : x[8] = 0.000000e+00
+ Pontos finais               : x[9] = 0.000000e+00
+ 
+(34) Linear Function Rank One With Zero Columns and Rows - COM - Não sei se convergiu
+
+ Number of iterations               : 2
+ Number of functional evaluations   : 3
+ Objective function value           : 3.647059e+00
+ Sup-norm of the projected gradient : 1.705303e-12
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 1.000000e+00
+ Pontos finais               : x[1] = -4.477941e+00
+ Pontos finais               : x[2] = -4.477941e+00
+ Pontos finais               : x[3] = -4.477941e+00
+ Pontos finais               : x[4] = -4.477941e+00
+ Pontos finais               : x[5] = -4.477941e+00
+ Pontos finais               : x[6] = -4.477941e+00
+ Pontos finais               : x[7] = -4.477941e+00
+ Pontos finais               : x[8] = -4.477941e+00
+ Pontos finais               : x[9] = 0.000000e+00
+ 
+(35) Chebyquad - SEM - Não convergiu
+
+ Number of iterations               : 496
+ Number of functional evaluations   : 648
+ Objective function value           : 1.421201e-01
+ Sup-norm of the projected gradient : 7.470309e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 5.803071e-01
+ Pontos finais               : x[1] = 8.432364e-01
+ Pontos finais               : x[2] = 8.432436e-01
+ Pontos finais               : x[3] = 9.701555e-01
+ Pontos finais               : x[4] = 9.807009e-01
+ Pontos finais               : x[5] = 8.432447e-01
+ Pontos finais               : x[6] = 9.806893e-01
+ Pontos finais               : x[7] = 6.886934e-01
+
+(35) Chebyquad - COM - Não convergiu
+
+ Number of iterations               : 782
+ Number of functional evaluations   : 1252
+ Objective function value           : 1.421201e-01
+ Sup-norm of the projected gradient : 9.372234e-07
+
+ Flag of SPG: Solution was found.
+ Pontos finais               : x[0] = 5.803071e-01
+ Pontos finais               : x[1] = 6.886933e-01
+ Pontos finais               : x[2] = 8.432439e-01
+ Pontos finais               : x[3] = 9.806772e-01
+ Pontos finais               : x[4] = 9.701555e-01
+ Pontos finais               : x[5] = 9.807129e-01
+ Pontos finais               : x[6] = 8.432435e-01
+ Pontos finais               : x[7] = 8.432373e-01
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+

@@ -37,8 +37,10 @@ void inip(int n, double *x, double *l, double *u)
   }
 
   /* Define initial Guess */
-
-  x[0] = -1.0;
+  for (int i = 0; i < n; i++)
+  {
+    x[i] = -1.0;
+  }
 }
 
 void evalf(int n, double *x, double *f, int *flag)
@@ -62,34 +64,38 @@ void evalf(int n, double *x, double *f, int *flag)
 void evalg(int n, double *x, double *g, int *flag)
 {
   *flag = 0;
+  double s1, t;
 
   for (int i = 0; i < n; i++)
   {
     g[i] = 0.0;
   }
+
   for (int i = 0; i < n; i++)
   {
-    double s1 = 0.0;
-    for (int j = max(0, i - 5); j < i; j++)
+    s1 = 0.0;
+    for (int j = fmax(0, i - 5); j < i; j++)
     {
-      s1 += x[j] * (1.0 + x[j]);
+      s1 = s1 + x[j] * (1.0 + x[j]);
     }
     if (i != n - 1)
     {
-      s1 += x[i + 1] * (1.0 + x[i + 1]);
+      s1 = s1 + x[i + 1] * (1.0 + x[i + 1]);
     }
-    double t = x[i] * (2.0 + 5.0 * pow(x[i], 2)) + 1.0 - s1;
-    for (int j = max(0, i - 5); j < i; j++)
+
+    t = x[i] * (2.0 + 5.0 * pow(x[i], 2)) + 1.0 - s1;
+    for (int j = fmax(0, i - 5); j < i; j++)
     {
-      g[j] -= 2.0 * t * (1.0 + 2.0 * x[j]);
+      g[j] = g[j] - 2.0 * t * (1.0 + 2.0 * x[j]);
     }
-    g[i] += 2.0 * t * (2.0 + 15.0 * pow(x[i], 2));
+    g[i] = g[i] + 2.0 * t * (2.0 + 15.0 * pow(x[i], 2));
     if (i != n - 1)
     {
-      g[i + 1] -= 2.0 * t * (1.0 + 2.0 * x[i + 1]);
+      g[i + 1] = g[i + 1] - 2.0 * t * (1.0 + 2.0 * x[i + 1]);
     }
   }
 }
+
 void proj(int n, double *x, int *flag)
 {
   int i;
