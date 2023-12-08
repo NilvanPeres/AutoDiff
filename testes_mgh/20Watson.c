@@ -16,6 +16,7 @@
 #define max(a, b) ((a) > (b) ? (a) : (b))
 
 extern double *l, *u;
+int global_m = 29;
 // extern void trace_on(int);
 
 /***********************************************************************
@@ -48,9 +49,9 @@ void evalf(int n, double *x, double *f, int *flag)
 
   *f = 0.0;
 
-  for (int i = 1; i <= 29; ++i)
+  for (int i = 1; i <= global_m; ++i)
   {
-    d1 = (double)i / 29.0;
+    d1 = (double)i / global_m;
     s1 = 0.0;
     d2 = 1.0;
 
@@ -87,9 +88,9 @@ void evalg(int n, double *x, double *g, int *flag)
     g[i] = 0.0;
   }
 
-  for (int i = 1; i <= 29; ++i)
+  for (int i = 1; i <= global_m; ++i)
   {
-    d1 = (double)i / 29.0;
+    d1 = (double)i / global_m;
     s1 = 0.0;
     d2 = 1.0;
 

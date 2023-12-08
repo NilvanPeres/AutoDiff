@@ -29,24 +29,18 @@ void inip(int n, double *x, double *l, double *u)
 void evalf(int n, double *x, double *f, int *flag)
 {
   int i;
-
   *flag = 0;
 
   adouble *ax = new adouble[n];
   adouble af;
-
   trace_on(1);
   for (i = 0; i < n; i++)
-  {
     ax[i] <<= x[i];
-  }
 
   af = pow(10.0 * (ax[1] - pow(ax[0], 2)), 2) + pow(1.0 - ax[0], 2);
 
   af >>= *f;
   trace_off();
-
-  delete[] ax;
 }
 
 void evalg(int n, double *x, double *g, int *flag)

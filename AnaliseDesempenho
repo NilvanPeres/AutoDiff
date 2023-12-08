@@ -1,0 +1,49 @@
+1 - Igual
+2 - Igual
+3 - Adolc foi melhor. Menos iteracoes nas duas (Subconjunto 3)
+4 - Igual
+5 - Igual
+6 - Igual
+7 - Igual
+8 - Igual
+9 - Igual
+10 - Não Convergiu. Mas, o adolc teve menos NFE. (Subconjunto 2)
+11 - Adolc teve menos iterações, mas teve mais NFE. Curioso !! (Subconjunto 3)
+12 - Igual
+13 - Adolc foi pior. Com 8 iterações a mais, E 4 NFE a mais. (Subconjunto 1)
+14 - Adolc foi melhor. Com 41 iterações a menos, E 41 NFE a menos também
+15 - Adolc foi pior. Com 10 iterações a mais, E 9 NFE a mais. (Subconjunto 2)
+16 - Igual
+17 - Adolc foi pior. Com 14130 iterações a mais, e 22995 NFE a mais. (Subconjunto 2)
+18 - Adolc foi pior. Com 69 iterações a mais, e 94 NFE a mais. (Subconjunto 2)
+19 - Adolc foi melhor. Com 227 iterações a menos, e 282 NFE a menos. (Subconjunto 2)
+20 - Adolc foi melhor. Com 272 iterações a menos, e 340 NFE a menos; (Subconjunto 3)
+21 - Igual
+22 - Igual
+23 - Igual
+24 - Não convergiu. Mas, com o adolc foi pior nas duas iterações (Subconjunto 3)
+25 - Igual
+26 - Igual
+27 - ADolc foi pior. Com 32 iterações a mais, e 33 NFE a mais. (Subconjunto 2)
+28 - Adolc foi melhor. Com cercar 3000 iterações a menos, e cercar 49000 NFE a menos (Subconjunto 1)
+29 - Igual
+30 - Igual
+31 - Sem adolc não convergiu. Então adolc foi superior né rsrs (Subconjunto 1)
+32 - Igual
+33 - Igual
+34 - Sem adolc não convergiu. Então adolc foi superior né (Subconjunto 2)
+35 - Não convergiu. Adolc foi pior. Com 286 iterações a mais, e 604 NFE a mais. (Subconjunto 3)
+
+
+Total de testes: 35
+
+Iguais: 19
+Adolc Melhor: 9. 
+Adolc Pior: 7.
+
+
+  trace_on(1);
+  adouble *ax = new adouble[n];
+  for (int i = 0; i < n; i++)
+    ax[i] <<= x[i];
+
